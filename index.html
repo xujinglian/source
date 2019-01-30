@@ -16,10 +16,10 @@
 			text-align: center;
 
 		}
-		#web ol li:hover{
+		#web ol li:hover,#eday ol li:hover{
 			background-color: orange;
 		}
-		#web ol li a{
+		#web ol li a,#eday ol li a{
 			display: inline-block;
 			background-color: gray;
 			padding: 10px;
@@ -28,23 +28,49 @@
 		#web ol li p{
 			display: inline;
 		}
+		#eday ol li{
+			width: 150px;
+			height: 50px;
+			background-color: #3f3;
+			vertical-align: middle;
+			text-align: center;
+			margin:10px;
+			padding: 10px;
+		}
 	</style>
 </head>
 <body>
-	<h1>这是我的个人资源整理静态容器</h1>
-	<h2>ceshi</h2>
-	<h1>创建时间：2019年1月29日</h1>
+	<h1 style="text-align: center;padding: 10px;margin-top: 30px;">这是我的个人资源整理静态容器</h1><hr style="width: 400px;padding-left: 50%;margin-left: 300px;padding-top: 2px;" />
+	<h1 style="color: red;">创建时间：2019年1月29日</h1>
+	<div>
+		<p>1.这里的资料和内容是在每个星期、每个月整理的时候写。</p>
+	</div>
+	<div style="background-color: #f03;">
+		<h3>待办清单</h3>
+		<p>增加标签功能</p>
+	</div>
 	<div>
 		<h1>文章列表</h1>
 		<p><a href="github_build_selfpage.html">1.关于使用github创建个人静态主页的方法</a></p>
 	</div>
-	<div id="web">
+	<div id="eday">
+		<h1>每日浏览网站</h1>
+		<ol>
+			<li><a href="http://www.hjenglish.com/new/fanyiyuedu/">沪江英语</a></li>
+		</ol>
+	</div>
+	<div id="web" style="background-color: #FAEBD7">
 		<h1>好的网站-推荐理由</h1>
 		<ol>
 			<li><a href="http://lusongsong.com/">卢松松博客网站</a><br><hr><p>这是一个不错的个人站长的网站</p></li>
 			<li><a href="http://tool.lusongsong.com/daohang-addurl.html">松松站长工具大全</a><br><hr><p>松松整理的一些工具</p></li>
 			<li><a href="http://www.shjianlei.com/">PHP100</a><br><hr>因为听产品100的课知道</li>
 		</ol>
+		<hr>
+	</div>
+	<div style="background-color: #cf6;">
+		<h1>产品经理&&项目管理</h1>
+		<hr>
 	</div>
 </body>
 </html>
